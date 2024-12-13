@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#app {
+    text-align: center;
+}
+
+#canvas {
+    border: 2px solid #000;
+    width: 80vw;
+    height: 60vh;
+    margin: 20px auto;
+    position: relative;
+    background-color: #fff;
+}
+
+.node {
+    border: 1px solid #000;
+    background-color: #ffd700;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    cursor: move;
+    user-select: none;
+}
